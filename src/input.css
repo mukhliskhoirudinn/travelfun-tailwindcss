@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   @apply font-poppins;
+}
+
+/* untuk nav */
+.hidden-navbar {
+   @apply -translate-y-full transition-transform duration-300 ease-in-out;
+}
+.shown-navbar {
+   @apply translate-y-0 transition-transform duration-300 ease-in-out;
+}
+
+/* link aktip */
+.active {
+   @apply text-orange;
+}
